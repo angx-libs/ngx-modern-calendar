@@ -143,6 +143,41 @@
           }
         }
       }
+    },
+    "@angx/ngx-modern-calendar": {
+      "projectType": "library",
+      "root": "projects/angx/ngx-modern-calendar",
+      "sourceRoot": "projects/angx/ngx-modern-calendar/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/angx/ngx-modern-calendar/tsconfig.lib.json",
+            "project": "projects/angx/ngx-modern-calendar/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angx/ngx-modern-calendar/src/test.ts",
+            "tsConfig": "projects/angx/ngx-modern-calendar/tsconfig.spec.json",
+            "karmaConfig": "projects/angx/ngx-modern-calendar/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/angx/ngx-modern-calendar/tsconfig.lib.json",
+              "projects/angx/ngx-modern-calendar/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "ngx-modern-calendar"
 }

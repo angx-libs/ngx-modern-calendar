@@ -1,0 +1,19 @@
+{
+  "name": "@angx/ngx-modern-calendar",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "keywords": [
+    "ngx calendar",
+    "ngx modern calendar",
+    "npm calendar",
+    "modern calendar",
+    "simple calendar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angx-libs/ngx-modern-calendar.git"
+  }
+}

@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@angx/ngx-modern-calendar": [
+        "dist/angx/ngx-modern-calendar"
+      ],
+      "@angx/ngx-modern-calendar/*": [
+        "dist/angx/ngx-modern-calendar/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
