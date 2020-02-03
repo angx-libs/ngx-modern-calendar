@@ -14,7 +14,7 @@ Beautiful Modern Calendar for Angular!
 
 ## Install
 
-To use @angx/ngx-modern-calendar in your project install it via [npm](https://www.npmjs.com/angx/ngx-modern-calendar):
+To use @angx/ngx-modern-calendar in your project install it via [npm](https://docs.npmjs.com/about-npm):
 
 ```
 npm i @angx/ngx-modern-calendar --save
@@ -33,7 +33,7 @@ npm i @angx/ngx-modern-calendar --save
 
 ```
 
-English(default): eng
+English(default): en
 
 French: fr
 
