@@ -25,7 +25,7 @@ npm i @angx/ngx-modern-calendar --save
 
 ```
 
- <modern-calendar [language]="'eng'" [selectedDates]="selectedDates"></modern-calendar>
+ <modern-calendar [language]="'en'" [selectedDates]="selectedDates"></modern-calendar>
 
 ```
 
