@@ -1,8 +1,8 @@
 # @angx/ngx-modern-calendar
 
-![Angular Modern Calendar](https://raw.githubusercontent.com/angx-libs/ngx-modern-calendar/master/src/assets/screenshot.png)
+Beautiful Modern Calendar for Angular (Supports Angular 18)!
 
-Beautiful Modern Calendar for Angular!
+![Angular Modern Calendar](https://raw.githubusercontent.com/angx-libs/ngx-modern-calendar/master/src/assets/screenshot.png)
 
 @angx/ngx-modern-calendar has been developed to support multiple languages and to highlight custom dates.
 
@@ -11,6 +11,7 @@ Beautiful Modern Calendar for Angular!
 - Autoscaling
 - Responsive
 - Multi language - English, French, Hebrew, Hindi, Spanish
+- Supports Angular 18
 
 ## Install ##
 
