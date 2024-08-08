@@ -10,7 +10,7 @@ import { esLocale } from './spanish';
   standalone: true,
   selector: 'modern-calendar',
   template: `<div id="modernCalendar" class="modern-calendar"></div>`,
-  styleUrls: ['./ngx-modern-calendar.component.scss']
+  styleUrls: ['./ngx-modern-calendar.component.css']
 })
 export class NgxModernCalendarComponent implements OnInit, OnChanges {
 
