@@ -1,0 +1,267 @@
+/* cyrillic */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Rubik Light"), local("Rubik-Light"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj2mZ8WDm7Q.woff2) format("woff2");
+  unicode-range: U400-45F, U490-491, U4B -4B 1, U2116;
+}
+/* hebrew */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Rubik Light"), local("Rubik-Light"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj2mf8WDm7Q.woff2) format("woff2");
+  unicode-range: U590-5FF, U20AA, U25CC, UFB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Rubik Light"), local("Rubik-Light"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj2mT8WDm7Q.woff2) format("woff2");
+  unicode-range: U100-24F, U259, U1E -1EFF, U2020, U20A -20AB, U20AD-20CF, U2113, U2C 58C 7F, UA720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Rubik Light"), local("Rubik-Light"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Fqj2md8WA.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2BB-2BC, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2122, U2191, U2193, U2212, U2215, UFEFF, UFFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Regular"), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV7nFrXyi0A.woff2) format("woff2");
+  unicode-range: U400-45F, U490-491, U4B -4B 1, U2116;
+}
+/* hebrew */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Regular"), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV7nDrXyi0A.woff2) format("woff2");
+  unicode-range: U590-5FF, U20AA, U25CC, UFB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Regular"), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV7nPrXyi0A.woff2) format("woff2");
+  unicode-range: U100-24F, U259, U1E -1EFF, U2020, U20A -20AB, U20AD-20CF, U2113, U2C 58C 7F, UA720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Rubik"), local("Rubik-Regular"), url(https://fonts.gstatic.com/s/rubik/v9/iJWKBXyIfDnIV7nBrXw.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2BB-2BC, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2122, U2191, U2193, U2212, U2215, UFEFF, UFFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Rubik Medium"), local("Rubik-Medium"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7EyjmmZ8WDm7Q.woff2) format("woff2");
+  unicode-range: U400-45F, U490-491, U4B -4B 1, U2116;
+}
+/* hebrew */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Rubik Medium"), local("Rubik-Medium"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Eyjmmf8WDm7Q.woff2) format("woff2");
+  unicode-range: U590-5FF, U20AA, U25CC, UFB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Rubik Medium"), local("Rubik-Medium"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7EyjmmT8WDm7Q.woff2) format("woff2");
+  unicode-range: U100-24F, U259, U1E -1EFF, U2020, U20A -20AB, U20AD-20CF, U2113, U2C 58C 7F, UA720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Rubik Medium"), local("Rubik-Medium"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7Eyjmmd8WA.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2BB-2BC, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2122, U2191, U2193, U2212, U2215, UFEFF, UFFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Rubik Bold"), local("Rubik-Bold"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iGmZ8WDm7Q.woff2) format("woff2");
+  unicode-range: U400-45F, U490-491, U4B -4B 1, U2116;
+}
+/* hebrew */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Rubik Bold"), local("Rubik-Bold"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iGmf8WDm7Q.woff2) format("woff2");
+  unicode-range: U590-5FF, U20AA, U25CC, UFB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Rubik Bold"), local("Rubik-Bold"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iGmT8WDm7Q.woff2) format("woff2");
+  unicode-range: U100-24F, U259, U1E -1EFF, U2020, U20A -20AB, U20AD-20CF, U2113, U2C 58C 7F, UA720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Rubik Bold"), local("Rubik-Bold"), url(https://fonts.gstatic.com/s/rubik/v9/iJWHBXyIfDnIV7F6iGmd8WA.woff2) format("woff2");
+  unicode-range: U0-0FF, U131, U152-153, U2BB-2BC, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2122, U2191, U2193, U2212, U2215, UFEFF, UFFFD;
+}
+:host ::ng-deep .modern-calendar {
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e7e9ed;
+  box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+:host ::ng-deep .modern-calendar * {
+  font-family: "Rubik";
+  box-sizing: border-box;
+}
+:host ::ng-deep .modern-calendar *:before {
+  box-sizing: border-box;
+}
+:host ::ng-deep .modern-calendar *:after {
+  box-sizing: border-box;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header {
+  height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-header__label {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  line-height: 2.5em;
+  vertical-align: middle;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-btn {
+  padding: 5px 14px !important;
+  cursor: pointer;
+  font-size: 0.88vw;
+  position: relative;
+  padding: 6px 12px;
+  margin: auto;
+  background: #e2e2e2;
+  border-radius: 100%;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-btn:before {
+  width: 0.9vh !important;
+  height: 0.9vh !important;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  display: inline-block;
+  position: relative;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  margin: auto;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-btn.left-btn {
+  left: 0;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-btn.left-btn:before {
+  transform: rotate(-135deg);
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-btn.right-btn {
+  right: 0;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-header .modern-calendar-btn.right-btn:before {
+  transform: rotate(45deg);
+}
+:host ::ng-deep .modern-calendar .modern-calendar-week {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #dedede;
+  border-left: 0;
+  border-right: 0;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-week span {
+  color: #383838;
+  flex-direction: column;
+  flex: 0 0 14.28%;
+  font-size: 1em;
+  font-weight: 500;
+  max-width: 14.28%;
+  padding: 5px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-body {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-date {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 14.28%;
+  max-width: 14.28%;
+  margin: 5px 0;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-date span {
+  padding: 4px 8px;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-date--active {
+  cursor: pointer;
+}
+:host ::ng-deep .modern-calendar .modern-calendar-date--selected span {
+  background-color: #edf5ff;
+  color: #0076ff;
+  border-radius: 50%;
+  font-weight: 500;
+}
+:host ::ng-deep .modern-calendar .modern-calendar .modern-calendar-header {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  .modern-calendar {
+    width: auto;
+ }
+}

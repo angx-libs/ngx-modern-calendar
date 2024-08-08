@@ -1,0 +1,25 @@
+{
+  "name": "@angx/ngx-modern-calendar",
+  "version": "2.0.0",
+  "peerDependencies": {
+    "@angular/common": "^18.1.0",
+    "@angular/core": "^18.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "donations": "https://buymeacoffee.com/er.abhishek",
+  "keywords": [
+    "ngx modern calendar",
+    "angular modern calendar",
+    "ngx simple calendar",
+    "angular simple calendar",
+    "angular calendar",
+    "simple calendar"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angx-libs/ngx-modern-calendar.git"
+  }
+}
