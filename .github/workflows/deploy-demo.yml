@@ -1,0 +1,53 @@
+name: Deploy demo to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# Allow the workflow to publish to Pages, and let one deploy finish before
+# the next starts rather than cancelling it mid-publish.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Builds the library first, then the demo against the packaged output.
+      # base-href must match the project page path or every asset 404s.
+      - run: npm run build:lib
+      - run: npx ng build ngx-modern-calendar --base-href /ngx-modern-calendar/
+
+      # SPA fallback: GitHub Pages has no rewrite rules, so a deep link would
+      # 404 without a copy of index.html served as 404.html.
+      - run: cp dist/ngx-modern-calendar/browser/index.html dist/ngx-modern-calendar/browser/404.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/ngx-modern-calendar/browser
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
