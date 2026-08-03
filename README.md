@@ -2,7 +2,11 @@
 
 A small, themeable, multi-language calendar component for Angular.
 
+**[Live demo](https://angx-libs.github.io/ngx-modern-calendar/)** · [npm](https://www.npmjs.com/package/@angx/ngx-modern-calendar)
+
 ![Angular Modern Calendar](https://raw.githubusercontent.com/angx-libs/ngx-modern-calendar/master/src/assets/screenshot.png)
+
+*Left to right: multi-select, a weekend-only calendar with past dates disabled, and the same component restyled entirely through CSS custom properties.*
 
 ## Features
 
@@ -168,6 +172,8 @@ npm run build:lib   # build the package into dist/angx/ngx-modern-calendar
 npm start           # build the lib, then serve the demo app
 npm test            # run the library unit tests
 ```
+
+The demo app is deployed to GitHub Pages from `master` by `.github/workflows/deploy-demo.yml`.
 
 ## Support
 
