@@ -1,6 +1,6 @@
 {
   "name": "@angx/ngx-modern-calendar",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A small, themeable, multi-language calendar component for Angular.",
   "license": "MIT",
   "author": "Abhishek Singh",
