@@ -1,5 +1,44 @@
-<div style=" display: flex; gap: 30px; justify-content: center;margin-top: 50px;">
-  <div style=" max-width: 400px;"> 
-    <modern-calendar [language]="'en'" [selectedDates]="selectedDates"></modern-calendar>
+<main class="demo">
+  <h1>&#64;angx/ngx-modern-calendar</h1>
+
+  <label class="control">
+    Language
+    <select [value]="language()" (change)="onLanguageChange($event)">
+      @for (code of languages; track code) {
+        <option [value]="code">{{ code }}</option>
+      }
+    </select>
+  </label>
+
+  <div class="grid">
+    <section>
+      <h2>Multi-select</h2>
+      <modern-calendar
+        [language]="language()"
+        [selectedDates]="selectedDates()"
+        (dateSelected)="onDateSelected($event)"
+      />
+      @if (lastSelection(); as selection) {
+        <p class="note">Last picked: {{ selection.date | date: 'fullDate' }}</p>
+      }
+    </section>
+
+    <section>
+      <h2>Weekends only, no past dates</h2>
+      <modern-calendar
+        [language]="language()"
+        [datesFilter]="true"
+        [pastDates]="false"
+        [availableWeekDays]="weekends"
+        (dateSelected)="onDateSelected($event)"
+      />
+      <p class="note">Weekdays and anything before today are disabled.</p>
+    </section>
+
+    <section>
+      <h2>Themed</h2>
+      <modern-calendar class="themed" [language]="language()" [selectedDates]="selectedDates()" />
+      <p class="note">Restyled purely with CSS custom properties.</p>
+    </section>
   </div>
-</div>
+</main>
